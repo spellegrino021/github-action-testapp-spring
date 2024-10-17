@@ -51,3 +51,4 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_51C13C182F3244ABA8F7E7290FE95713 }}
           package: '*.jar'
+          sku: 'flexconsumption'
